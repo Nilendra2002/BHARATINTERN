@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.hero h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero button{
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover{
+    background-color: #cc0000;
+}
+
+.categories{
+    padding: 20px;
+}
+
+.categories h2{
+    font-size: 24px;
+}
+
+.category-list{
+    display: flex;
+}
+
+.category{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.movies{
+    padding: 20px;
+}
+
+.movies h2{
+    font-size: 24px;
+}
+
+.movie-card{
+    width: 200px;
+    height: 300px;
+    background-color: #ccc;
+    margin: 10px;
+}
